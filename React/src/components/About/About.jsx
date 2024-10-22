@@ -15,7 +15,7 @@ export const About = () => {
 
         {/* Imagem sobre mim */}
         <div>
-          
+
         </div>
         <img
           src={getImageUrl("about/AboutMe.jpg")}
@@ -26,6 +26,17 @@ export const About = () => {
         {/* Lista de itens sobre mim */}
         <ul className={styles.aboutItems}>
 
+
+          {/* Item sobre Desenvolvimento Backend */}
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Desenvolvedor Back-End</h3>
+              <p>
+                Tenho experiência em desenvolvimento backend, focado na criação de sistemas robustas e eficientes
+              </p>
+            </div>
+          </li>
           {/* Item sobre Desenvolvimento Front-End */}
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
@@ -37,16 +48,6 @@ export const About = () => {
             </div>
           </li>
 
-          {/* Item sobre Desenvolvimento Backend */}
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                Tenho experiência em desenvolvimento backend, focado na criação de sistemas robustas e eficientes
-              </p>
-            </div>
-          </li>
 
         </ul>
 
