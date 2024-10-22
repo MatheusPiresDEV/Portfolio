@@ -1,9 +1,9 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
+    "role": "",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
     "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
     "imageSrc": "history/google.png"
   },
