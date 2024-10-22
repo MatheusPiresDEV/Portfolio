@@ -10,6 +10,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  height: 500px;
 }
 
 /* Estilização da seção de conteúdo, utilizando flexbox para alinhar elementos em coluna */
@@ -23,7 +24,7 @@
 
 /* Estilo do título principal, com tamanho, peso e efeito de gradiente */
 .title {
-  font-size: 72px;
+  font-size: 33px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -38,7 +39,7 @@
 
 /* Estilo da descrição, definindo tamanho da fonte e espaçamento */
 .description {
-  font-size: 30px;
+  font-size: 26px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -57,8 +58,8 @@
 
 /* Estilo da imagem principal, com animação de flutuação */
 .heroImg {
-  width: 300px; /* Define uma largura fixa */
-  height: 300px; /* Define uma altura fixa */
+  width: 400px; /* Define uma largura fixa */
+  height: 400px; /* Define uma altura fixa */
   z-index: 1;
   animation-name: floating;
   animation-duration: 3s;
@@ -98,7 +99,7 @@
 /* Efeito de desfoque inferior, criando uma esfera desfocada */
 .bottomBlur {
   position: absolute;
-  width: 70vw;
+  width: 32vw;
   height: 50vw;
   min-width: 250px;
   top: 246px;

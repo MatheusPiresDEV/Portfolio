@@ -7,7 +7,7 @@ import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
-    <section className={styles.container} id="Linguagens">
+    <section className={styles.container} id="linguagens">
       <h2 className={styles.title}>Linguagens</h2>
       <div className={styles.content}>
         <div className={styles.skills}>

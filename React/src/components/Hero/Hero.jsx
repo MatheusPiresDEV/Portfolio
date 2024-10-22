@@ -11,15 +11,16 @@ export const Hero = () => {
         <p className={styles.description}>
           Sou desenvolvedor Full-Steack, recem formado em desenvolvimento de sistemas. 
         </p>
-        <a href="matheusgustavodasilvapires@gmail.com" className={styles.contactBtn}>
+        <a href="mailto:matheusgustavodasilvapires@gmail.com" className={styles.contactBtn}>
           Entre em contato
         </a>
       </div>
-      <img
+      <div><img
         src={getImageUrl("hero/AboutMe.jpg")}
         alt="Foto minha"
         className={styles.heroImg}
       />
+      </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

@@ -1,26 +1,16 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Tcc InQuadra",
+    "imageSrc": "projects/tcc.png",
+    "description": "Projeto em desenvolvimento referente a criação de um site para alugueis de quadras esportivas",
+    "skills": ["HTML", "CSS", "JavaScript", "Pythom" ,"MySQL"],
+    "source": "https://github.com/MatheusPiresDEV/TCCInQuadra "
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "Atividades Senai",
+    "imageSrc": "projects/SeiLa.png",
+    "description": "Realização de todas as atividades de Front-End realizadas no Senai",
+    "skills": ["HTML", "CSS", "JavaScript", "Node","React"],
     "source": "https://www.github.com"
   }
 ]
