@@ -9,50 +9,38 @@ export const About = () => {
     <section className={styles.container} id="sobre">
       {/* Título da seção */}
       <h2 className={styles.title}>Sobre</h2>
-
       {/* Conteúdo da seção */}
       <div className={styles.content}>
-
         {/* Imagem sobre mim */}
-        <div>
-
-        </div>
         <img
           src={getImageUrl("about/AboutMe.jpg")}
           alt="Uma foto minha"
           className={styles.aboutImage}
         />
-
         {/* Lista de itens sobre mim */}
         <ul className={styles.aboutItems}>
-
-
           {/* Item sobre Desenvolvimento Backend */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Ícone de servidor" />
             <div className={styles.aboutItemText}>
               <h3>Desenvolvedor Back-End</h3>
               <p>
-                Tenho experiência em desenvolvimento backend, focado na criação de sistemas robustas e eficientes
+                Experiência em desenvolvimento backend, com foco na criação de sistemas robustos e eficientes.
               </p>
             </div>
           </li>
           {/* Item sobre Desenvolvimento Front-End */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Ícone de cursor" />
             <div className={styles.aboutItemText}>
               <h3>Desenvolvedor Front-End</h3>
               <p>
-                Sou um desenvolvedor front-end, tenho experiência com várias tecnologias
+                Experiência em desenvolvimento front-end, especializado na criação de sites responsivos e otimizados.
               </p>
             </div>
           </li>
-
-
         </ul>
-
       </div>
-
     </section>
   );
 };
