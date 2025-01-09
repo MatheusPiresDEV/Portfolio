@@ -2,14 +2,16 @@
 
 /* Navbar */
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
-  flex-wrap: wrap; /* Adicionado para melhor comportamento responsivo */
+  top: 0; /* Mantém a navbar no topo da página */
+  width: 100%; /* Certifica-se de que a navbar ocupa toda a largura da página */
+  padding-top: 10px; /* Ajusta o padding para evitar sobreposição de conteúdo */
+  padding-bottom: 10px; /* Adicionado para consistência */
+  z-index: 1000; /* Certifique-se de que a navbar fique acima dos outros elementos */
+  background-color: var(--color-bg); /* Fundo original da navbar */
 }
 
 /* Div para conter o menu e aplicar o hover */
@@ -80,7 +82,7 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 5%;
+    padding: 10px 5%; /* Ajusta o padding para telas menores */
   }
 
   .menu {

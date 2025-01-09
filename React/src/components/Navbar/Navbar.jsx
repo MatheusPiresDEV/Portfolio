@@ -24,7 +24,7 @@ export const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             <li className={styles.navItem}>
-              <a href="#sobre">Sobre</a>
+              <a href="#sobre">Matheus</a>
             </li>
             <li className={styles.navItem}>
               <a href="#linguagens">Experiência e linguagens</a>

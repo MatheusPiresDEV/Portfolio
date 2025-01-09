@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Ola, me chamo Matheus</h1>
         <p className={styles.description}>
-          Sou desenvolvedor Back-End, recém formado técnico em desenvolvimento de sistemas. 
+          Sou desenvolvedor Full-Stack, recém formado técnico em desenvolvimento de sistemas pelo Senai. 
         </p>
         <a href="https://wa.me/5541988314797" className={styles.contactBtn}>
           Entre em contato
